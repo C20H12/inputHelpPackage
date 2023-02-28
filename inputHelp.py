@@ -4,7 +4,7 @@ Module
 Vesion
   2.0
 Author
-  Marvin
+  c20h12untitled
 
 Contains functions to validate input for command line programs
 '''
