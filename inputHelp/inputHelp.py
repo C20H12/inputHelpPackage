@@ -2,7 +2,7 @@
 Module
   inputHelp
 Vesion
-  2.0
+  1.2
 Author
   c20h12untitled
 
