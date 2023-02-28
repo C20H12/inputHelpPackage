@@ -7,7 +7,7 @@ setup(
   description = 'Contains functions to validate input for command line programs',
   author = 'c20h12untitled',
   url = 'https://github.com/C20H12/inputHelpPackage',
-  download_url = 'https://github.com/C20H12/inputHelpPackage/archive/refs/tags/1.1.tar.gz',
+  download_url = 'https://github.com/C20H12/inputHelpPackage/archive/refs/tags/1.2.tar.gz',
   keywords = ['input', 'command line'],
   install_requires=[],
   classifiers=[
