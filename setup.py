@@ -2,12 +2,12 @@ from distutils.core import setup
 setup(
   name = 'inputHelp',
   packages = ['inputHelp'],
-  version = '1.2',
+  version = '1.3',
   license='MIT',
   description = 'Contains functions to validate input for command line programs',
   author = 'c20h12untitled',
   url = 'https://github.com/C20H12/inputHelpPackage',
-  download_url = 'https://github.com/C20H12/inputHelpPackage/archive/refs/tags/1.2.tar.gz',
+  download_url = 'https://github.com/C20H12/inputHelpPackage/archive/refs/tags/1.3.tar.gz',
   keywords = ['input', 'command line'],
   install_requires=[],
   classifiers=[
