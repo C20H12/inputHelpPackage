@@ -6,7 +6,7 @@ Vesion
 Author
   Marvin
 
-Contains functions to validate input
+Contains functions to validate input for command line programs
 '''
 
 
