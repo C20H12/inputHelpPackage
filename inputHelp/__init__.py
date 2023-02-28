@@ -2,7 +2,7 @@
 Module
   inputHelp
 Vesion
-  1.4
+  1.5
 Author
   c20h12untitled
 
@@ -40,7 +40,14 @@ def getNumber(type, prompt,
   return result
 
 def getBool(prompt, failedText="Input is not a bool!", trueValue='True', falseValue='False'):
-  return _convertInput(prompt, failedText, lambda t: True if t == trueValue else falseValue)
+  def testFunction(t):
+    if t == trueValue:
+      return True
+    elif t == falseValue:
+      return False
+    else:
+      raise ValueError("Invalid") 
+  return _convertInput(prompt, failedText, testFunction)
 
 def getString(prompt, filter=None, failedText="Input is invalid!", emptyText="Input is empty!"):
   '''
