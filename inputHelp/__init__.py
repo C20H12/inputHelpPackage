@@ -1,1 +1,1 @@
-from main import getNumber, getBool, getString,getStringRegex
+from inputHelp import getNumber, getBool, getString,getStringRegex

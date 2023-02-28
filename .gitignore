@@ -4,3 +4,5 @@ replit.nix
 .breakpoints
 poetry.lock
 pyproject.toml
+/dist
+/*-info
